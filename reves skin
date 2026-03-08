@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Beauty Flower</title>
+
+<style>
+
+body{
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background:#fdf6f6;
+}
+
+/* BARRA SUPERIOR */
+
+.topbar{
+background:#f5e6e6;
+text-align:center;
+padding:8px;
+font-size:14px;
+}
+
+/* MENU */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:white;
+border-bottom:1px solid #eee;
+}
+
+.logo{
+font-size:28px;
+font-style:italic;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#444;
+font-weight:500;
+}
+
+/* BANNER */
+
+.banner{
+background:linear-gradient(to right,#f8dede,#ffffff);
+padding:100px 60px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.banner-text h1{
+font-size:45px;
+color:#6e4c4c;
+}
+
+.banner-text p{
+font-size:18px;
+color:#555;
+}
+
+/* ICONOS */
+
+.features{
+display:flex;
+justify-content:space-around;
+padding:20px;
+background:#fff;
+border-top:1px solid #eee;
+border-bottom:1px solid #eee;
+}
+
+.features div{
+text-align:center;
+font-size:14px;
+}
+
+/* MARCAS */
+
+.brands{
+text-align:center;
+padding:40px;
+background:#fff;
+}
+
+.brands h2{
+margin-bottom:20px;
+}
+
+.brand-logos{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+font-weight:bold;
+color:#444;
+}
+
+/* CATEGORIAS */
+
+.categories{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.card{
+background:white;
+width:350px;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card button{
+background:#e77c7c;
+border:none;
+padding:10px 25px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#f5e6e6;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="topbar">
+ENVÍO GRATIS EN PEDIDOS +50€
+</div>
+
+<header>
+
+<div class="logo">beauty flower</div>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Productos</a>
+<a href="#">Marcas</a>
+<a href="#">Ofertas</a>
+<a href="#">Blog</a>
+</nav>
+
+</header>
+
+<section class="banner">
+
+<div class="banner-text">
+<h1>DESCUBRE LA BELLEZA PERFECTA</h1>
+<p>Las Mejores Marcas en Cosmética y Cuidado de la Piel</p>
+</div>
+
+</section>
+
+<section class="features">
+
+<div>🎁 Nuevas colecciones</div>
+<div>🏷 Ofertas exclusivas</div>
+<div>🚚 Envío rápido 24h</div>
+<div>💎 Cosmética de lujo</div>
+
+</section>
+
+<section class="brands">
+
+<h2>MARCAS DESTACADAS</h2>
+
+<div class="brand-logos">
+<span>CHANEL</span>
+<span>ESTÉE LAUDER</span>
+<span>MAYBELLINE</span>
+<span>LA ROCHE POSAY</span>
+<span>YVES SAINT LAURENT</span>
+<span>THE ORDINARY</span>
+<span>LANCÔME</span>
+<span>CERAVE</span>
+<span>MAC</span>
+<span>CLINIQUE</span>
+</div>
+
+</section>
+
+<section class="categories">
+
+<div class="card">
+<h3>MAQUILLAJE</h3>
+<p>Descubre nuestra colección</p>
+<button>VER MÁS</button>
+</div>
+
+<div class="card">
+<h3>CUIDADO DE PIEL</h3>
+<p>Productos para tu skincare</p>
+<button>DESCUBRIR</button>
+</div>
+
+</section>
+
+<footer>
+© 2026 Beauty Flower
+</footer>
+
+</body>
+</html>
